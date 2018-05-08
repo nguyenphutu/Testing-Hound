@@ -7,11 +7,9 @@
 # Run test
 
 - Run pphantomjs:
-  '''
-  $ phantomjs --wd
-  '''
+  - $ phantomjs --wd
+
 - run test:
-'''
-  $ mix test
-'''
+  - $ mix test
+
 
