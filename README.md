@@ -7,15 +7,9 @@
 # Run test
 
 - Run pphantomjs
-
-'''cmd
   $ phantomjs --wd
-'''
 
 - run test
-
-'''cmd
   $ mix test
-'''
 
 
