@@ -6,10 +6,12 @@
 
 # Run test
 
-- Run pphantomjs
+- Run pphantomjs:
+  '''
   $ phantomjs --wd
-
-- run test
+  '''
+- run test:
+'''
   $ mix test
-
+'''
 
