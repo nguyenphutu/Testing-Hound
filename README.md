@@ -6,7 +6,7 @@
 
 # Run test
 
-- Run pphantomjs:
+- Run phantomjs:
   - $ phantomjs --wd
 
 - run test:
