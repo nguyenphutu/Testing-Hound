@@ -1,21 +1,21 @@
-# NewTestHound
+# Testing with Hound 
 
-**TODO: Add description**
+- Install Elixir : https://elixir-lang.org/install.html
 
-## Installation
+- Install phantomjs : http://phantomjs.org/download.html
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `new_test_hound` to your list of dependencies in `mix.exs`:
+# Run test
 
-```elixir
-def deps do
-  [
-    {:new_test_hound, "~> 0.1.0"}
-  ]
-end
-```
+- Run pphantomjs
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/new_test_hound](https://hexdocs.pm/new_test_hound).
+'''cmd
+  $ phantomjs --wd
+'''
+
+- run test
+
+'''cmd
+  $ mix test
+'''
+
 
