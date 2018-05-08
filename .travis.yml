@@ -1,0 +1,9 @@
+language: elixir
+
+elixir:
+  - 1.6.5
+
+env:
+  - WEBDRIVER=phantomjs
+
+script: mix test
